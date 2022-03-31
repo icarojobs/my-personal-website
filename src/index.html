@@ -55,7 +55,7 @@
     </header>
 
     <main class="h-full">
-      <section class="bg-red-500 py-6 h-1/4">
+      <section class="bg-gradient-to-r from-slate-400 to-slate-200 py-6 h-1/4">
         <div class="container mx-auto flex justify-between">
           <div class="w-1/2 flex flex-col justify-center">
             <h2 class="text-4xl text-white font-bold mb-3">Tio Jobs</h2>
@@ -67,7 +67,7 @@
             </p>
             <a
               href="#"
-              class="bg-black text-white px-4 py-2 w-1/3 text-center text-xl mt-4 hover:bg-gray-400 rounded-md"
+              class="bg-red-600 text-white px-4 py-2 w-1/3 text-center text-xl mt-4 hover:bg-red-700 transition-all duration-200 rounded-md"
               >ME CONTRATE</a
             >
           </div>
@@ -76,9 +76,15 @@
             <div
               class="absolute bottom-0 right-0 pr-8 pb-8 flex flex-col gap-y-6"
             >
-              <i class="fa-brands fa-instagram h-8 w-8 text-white"></i>
-              <i class="text-white">LINKEDIN</i>
-              <i class="text-white">YOUTUBE</i>
+              <a href="#seuinstagram" class="bg-purple-600 p-2 rounded-md"
+                ><i data-feather="instagram" class="text-white w-8 h-8"></i>
+              </a>
+              <a href="#seulinkedin" class="bg-blue-600 p-2 rounded-md"
+                ><i data-feather="linkedin" class="text-white w-8 h-8"></i>
+              </a>
+              <a href="#seuyoutube" class="bg-red-600 p-2 rounded-md"
+                ><i data-feather="youtube" class="text-white w-8 h-8"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -133,5 +139,9 @@
         </span>
       </div>
     </footer>
+
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
