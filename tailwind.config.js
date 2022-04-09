@@ -3,9 +3,10 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        'header': '10%',
-      }
+        header: "10%",
+        footer: "10%",
+      },
     },
   },
   plugins: [],
-}
+};
