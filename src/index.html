@@ -40,10 +40,8 @@
         <div class="w-1/2 flex flex-col justify-center">
           <h2 class="text-4xl text-white font-bold mb-3">Tio Jobs</h2>
           <p class="text-lg text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde
-            minus nostrum illum quasi, suscipit ut voluptas modi nobis
-            sapiente eos animi optio maxime excepturi, alias quaerat quas
-            consectetur ab beatae.
+            Perfil empreendedor. Gosto de facilitar tanto o meu trabalho, quanto
+            o da equipe. Procuro sempre soluções eficazes e inovadoras.
           </p>
           <a href="#"
             class="bg-red-600 text-white px-4 py-2 w-1/3 text-center text-xl mt-4 hover:bg-red-700 transition-all duration-200 -skew-x-6 hover:-translate-y-2">ME
@@ -67,53 +65,58 @@
       </div>
     </section>
 
-    <div>
-      <img src="https://via.placeholder.com/200x100" alt="Logo empresa 01" />
-      <img src="https://via.placeholder.com/200x100" alt="Logo empresa 02" />
-      <img src="https://via.placeholder.com/200x100" alt="Logo empresa 03" />
-      <img src="https://via.placeholder.com/200x100" alt="Logo empresa 04" />
-    </div>
+    <section class="container mx-auto flex justify-between py-3 mt-2">
+      <a href="#" title="Logo empresa 01" class="border-4 border-white hover:border-red-500 hover:transition-all duration-200 rounded-md hover:scale-110">
+        <img src="https://via.placeholder.com/200x100" alt="Logo empresa 01" />
+      </a>
+      <a href="#" title="Logo empresa 02" class="border-4 border-white hover:border-red-500 hover:transition-all duration-200 rounded-md hover:scale-110">
+        <img src="https://via.placeholder.com/200x100" alt="Logo empresa 02" />
+      </a>
+      <a href="#" title="Logo empresa 03" class="border-4 border-white hover:border-red-500 hover:transition-all duration-200 rounded-md hover:scale-110">
+        <img src="https://via.placeholder.com/200x100" alt="Logo empresa 03" />
+      </a>
+      <a href="#" title="Logo empresa 04" class="border-4 border-white hover:border-red-500 hover:transition-all duration-200 rounded-md hover:scale-110">
+        <img src="https://via.placeholder.com/200x100" alt="Logo empresa 04" />
+      </a>
+    </section>
 
-    <div>
-      <div>
-        <h2>5+</h2>
-        <p>Experiência de Trabalho</p>
-      </div>
-      <div>
-        <p>
-          Perfil empreendedor. Gosto de facilitar tanto o meu trabalho, quanto
-          o da equipe. Procuro sempre soluções eficazes e inovadoras.
-        </p>
-        <div>
-          <div>
-            <i>icone</i>
-            <h3>Desenvolvedor Backend</h3>
-          </div>
-          <div>
-            <i>icone</i>
-            <h3>Desenvolvedor Frontend</h3>
-          </div>
-          <div>
-            <i>icone</i>
-            <h3>Especialista em Prototipagem</h3>
+    <section>
+     <div class="container mx-auto flex gap-4 py-7">
+        <div class="w-1/4 flex flex-col justify-center bg-red-500 rounded-br-3xl rounded-tl-3xl">
+          <h2 class="text-center text-5xl text-white my-2">5+</h2>
+          <p class="text-center text-white text-xl">Experiência de Trabalho</p>
+        </div>
+        <div class="w-3/4">
+          <div class="w-full flex justify-between gap-2">
+            <div class="w-1/3 flex flex-col items-center border-2 border-red-500 rounded-md p-6">
+              <i data-feather="database" class="text-red-500 w-8 h-8"></i>
+              <h3 class="text-red-500 text-lg font-bold mt-3">Desenvolvedor Backend</h3>
+            </div>
+            <div class="w-1/3 flex flex-col items-center border-2 border-red-500 rounded-md p-6">
+              <i data-feather="code" class="text-red-500 w-8 h-8"></i>
+              <h3 class="text-red-500 text-lg font-bold mt-3">Desenvolvedor Frontend</h3>
+            </div>
+            <div class="w-1/3 flex flex-col items-center border-2 border-red-500 rounded-md p-6">
+              <i data-feather="layout" class="text-red-500 w-8 h-8"></i>
+              <h3 class="text-red-500 text-lg font-bold mt-3">Especialista em Prototipagem</h3>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+     </div>
+    </section>
   </main>
 
-  <footer class="h-tenpercent">
-    <div>
-      <a href="#">tio@jobstreinamentos.com.br</a>
-    </div>
-    <div>
-      <h1>TIO JOBS</h1>
-    </div>
-    <div>
-      <span>
-        <i>whatsapp</i>
-        <a href="#">+55 16 99222-2222</a>
-      </span>
+  <footer class="flex bg-red-700 h-tenpercent">
+    <div class="container mx-auto flex justify-between items-center text-white text-md">
+      <a href="mailto:tio@jobstreinamentos.com.br" class="hover:-translate-y-2 transition-all duration-200">tio@jobstreinamentos.com.br</a>
+
+      <a href="https://jobstreinamentos.com.br" target="_blank" class="hover:-translate-y-2 transition-all duration-200">Meu Blog</a>
+  
+      <h1 class="font-bold text-xl">TIO JOBS</h1>
+
+      <a href="https://api.whatsapp.com/send?phone=5516992222222&text=Olá gostaria de desenvolver um site!" rel="nofollow" target="_blank" class="text-white flex items-center hover:-translate-y-2 transition-all duration-200">
+        <i data-feather="smartphone" class="text-white w-8 h-8"></i>
+        +55 16 99222-2222</a>
     </div>
   </footer>
 
