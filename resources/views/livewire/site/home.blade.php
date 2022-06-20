@@ -1,27 +1,5 @@
 <div>
-    <header class="h-header container mx-auto flex items-center justify-between py-3">
-        <h1 class="text-2xl font-bold text-red-600">TIO JOBS</h1>
-        <nav>
-            <ul class="flex gap-4">
-                <li>
-                    <a href="#" title="Home"
-                        class="p-3 transition-all duration-200 hover:bg-red-400 hover:text-white">Home</a>
-                </li>
-                <li>
-                    <a href="#" title="Serviço"
-                        class="p-3 transition-all duration-200 hover:bg-red-400 hover:text-white">Serviços</a>
-                </li>
-                <li>
-                    <a href="#" title="Projetos"
-                        class="p-3 transition-all duration-200 hover:bg-red-400 hover:text-white">Projetos</a>
-                </li>
-                <li>
-                    <a href="#" title="Contato"
-                        class="p-3 transition-all duration-200 hover:bg-red-400 hover:text-white">Contato</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <livewire:components.header />
 
     <main class="h-4/5">
         <section class="bg-gradient-to-r from-slate-400 to-slate-200 py-6">
@@ -100,21 +78,5 @@
         </section>
     </main>
 
-    <footer class="h-footer flex bg-red-700">
-        <div class="text-md container mx-auto flex items-center justify-between text-white">
-
-            <a href="mailto:tio@jobstreinamentos.com.br" class="transition-all duration-200 hover:-translate-y-2">
-                tio@jobstreinamentos.com.br
-            </a>
-
-            <h3 class="text-xl font-bold">TIO JOBS</h3>
-
-            <a href="https://api.whatsapp.com/send?phone=5516992222222&text=Olá gostaria de desenvolver um site!"
-                target="_blank" title="Fale comigo no Whats"
-                class="flex items-center transition-all duration-200 hover:-translate-y-2">
-                <i data-feather="smartphone" class="h-8 w-8 text-white"></i>
-                +55 16 99222-2222
-            </a>
-        </div>
-    </footer>
+    <livewire:components.footer />
 </div>
