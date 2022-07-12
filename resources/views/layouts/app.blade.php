@@ -8,21 +8,8 @@
 
     <title>{{ config('app.name') }}</title>
 
-    {{-- <link rel="stylesheet" href="css/tailwind.css" /> --}}
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    height: {
-                        header: "10%",
-                        footer: "10%",
-                    },
-                },
-            },
-        }
-    </script>
 
     @livewireStyles
 </head>
@@ -33,6 +20,7 @@
     <script>
         feather.replace();
     </script>
+    <script src="{{ mix('js/app.js') }}"></script>
     @livewireScripts
 </body>
 
